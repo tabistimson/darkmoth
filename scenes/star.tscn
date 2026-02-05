@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://cjdp6aq1gcdan"]
+
+[ext_resource type="Texture2D" uid="uid://bkv6wqrbbt3fy" path="res://assets 2/New Piskel (2).png" id="1_5ewde"]
+[ext_resource type="Script" path="res://scenes/star.gd" id="1_8itnn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8yob"]
+atlas = ExtResource("1_5ewde")
+region = Rect2(0, 0, 448, 448)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8mxr1"]
+atlas = ExtResource("1_5ewde")
+region = Rect2(448, 0, 448, 448)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_libgw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r8yob")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8mxr1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qjqfd"]
+
+[node name="Node2D" type="Area2D"]
+script = ExtResource("1_8itnn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 9.53674e-07)
+scale = Vector2(0.307148, 0.318484)
+sprite_frames = SubResource("SpriteFrames_libgw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-8, -15)
+rotation = 3.14159
+scale = Vector2(2.21796, -2.38286)
+shape = SubResource("CircleShape2D_qjqfd")

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxrvrap8qknsk"]
+
+[ext_resource type="Script" path="res://killzone_2.gd" id="1_wm4aw"]
+
+[node name="killzone2" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_wm4aw")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.83
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

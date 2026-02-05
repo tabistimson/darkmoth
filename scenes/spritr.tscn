@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://blwuekaqoa7je"]
+
+[ext_resource type="Texture2D" uid="uid://8w5ivyi8kdv4" path="res://assets 2/New Piskel (4).png" id="1_lb3kh"]
+[ext_resource type="PackedScene" uid="uid://2jjscxknijym" path="res://scenes/killzone.tscn" id="2_d43u8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25aua"]
+atlas = ExtResource("1_lb3kh")
+region = Rect2(0, 0, 448, 448)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvf51"]
+atlas = ExtResource("1_lb3kh")
+region = Rect2(448, 0, 448, 448)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbvcj"]
+atlas = ExtResource("1_lb3kh")
+region = Rect2(0, 448, 448, 448)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dxguu"]
+atlas = ExtResource("1_lb3kh")
+region = Rect2(448, 448, 448, 448)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_06blx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25aua")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvf51")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbvcj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dxguu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8p81r"]
+size = Vector2(72, 287)
+
+[node name="sword" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(28, -57)
+sprite_frames = SubResource("SpriteFrames_06blx")
+autoplay = "default"
+frame_progress = 0.186745
+
+[node name="killzone" parent="." instance=ExtResource("2_d43u8")]
+position = Vector2(0, 47)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="killzone"]
+position = Vector2(-6, -87.5)
+shape = SubResource("RectangleShape2D_8p81r")
