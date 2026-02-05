@@ -6,6 +6,7 @@ func _on_body_entered(body) -> void:
 	if body.has_method("death"):
 		body.death()
 	timer.start()
+	print("rah")
 
 func _on_timer_timeout():
 	print("reload")
