@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1770343272
+::res://::1770399390
 default_bus_layout.tres::AudioBusLayout::9163210527535203337::1770246589::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1770248091::0::1::::<><>::
 icon.svg::CompressedTexture2D::725851652894834015::1736449379::1736449394::1::::<><>::
@@ -57,23 +57,26 @@ New Piskel (17).png::CompressedTexture2D::5713080448750690966::1739478712::17394
 New Piskel (23).png::CompressedTexture2D::1635955536023558035::1770165078::1770165078::1::::<><>::
 New Piskel (24).png::CompressedTexture2D::2014874172418108326::1770266108::1770266108::1::::<><>::
 New Piskel.png::CompressedTexture2D::6408498436690768970::1739321439::1739321439::1::::<><>::
-::res://scenes/::1770343056
-coin.tscn::PackedScene::5179993983074334343::1770266846::0::1::::<><>::uid://cu3a3f2qroax5::::res://assets 2/New Piskel (5).png<>res://scripts/coin.gd<>uid://cgmsgt5mma6ok::::res://assets/sounds/coin.wav
+::res://levels/::1770399390
+game.tscn::PackedScene::6108102828636143950::1770399072::0::1::::<><>::uid://d0dna8bppdx4h::::res://assets 2/New Piskel (6).png<>uid://d33adapa6ium5::::res://assets 2/New Piskel (7).png<>uid://dpr7mgxmx1w2p::::res://assets 2/New Piskel (6) (1).png<>uid://bwjn608i1egn4::::res://assets 2/New Piskel (16).png<>uid://c2its7kohle7::::res://assets 2/carpet.png<>uid://cnnpun7fy4l4i::::res://assets 2/New Piskel (17).png<>uid://dber1jqgfp81p::::res://assets/sprites/world_tileset.png<>uid://bsi4grbpg1var::::res://assets 2/New Piskel (14).png<>uid://den23q57egkdw::::res://assets/sprites/New Piskel (1).png<>uid://cwgp6601qh12e::::res://assets/sprites/New Piskel (2).png<>res://scenes/game_manager.gd<>uid://g7v4ye26q5vj::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://dx4usfmqtbwj5::::res://scenes/player.tscn<>uid://2jjscxknijym::::res://scenes/killzone.tscn<>uid://cf2h0kf5ps06f::::res://scenes/coin.tscn<>uid://l3axrlixshgb::::res://scenes/sword.tscn<>uid://d4jg8pth1bv60::::res://scenes/platform.tscn<>uid://c4sy7tkgha3fb::::res://scenes/NextLevel.tscn<>uid://dcexcihhjad70::::res://assets/fonts/PixelOperator8.ttf
+level2.tscn::PackedScene::262793854036306440::1770398012::0::1::::<><>::
+::res://scenes/::1770399072
+coin.tscn::PackedScene::5179993983074334343::1770399072::0::1::::<><>::uid://cu3a3f2qroax5::::res://assets 2/New Piskel (5).png<>res://scripts/coin.gd<>uid://cgmsgt5mma6ok::::res://assets/sounds/coin.wav
 collision_shape_2d.gd::GDScript::-1::1770166484::0::1::::<>Area2D<>::
-enemy_kill.gd::GDScript::-1::1770343056::0::1::::<>Area2D<>::
-enemy_kill.tscn::PackedScene::5595990887564101219::1770266846::0::1::::<><>::res://scenes/enemy_kill.gd
-game.tscn::PackedScene::6108102828636143950::1770343056::0::1::::<><>::uid://dx4usfmqtbwj5::::res://scenes/player.tscn<>res://scenes/game_manager.gd<>uid://dber1jqgfp81p::::res://assets/sprites/world_tileset.png<>uid://d0dna8bppdx4h::::res://assets 2/New Piskel (6).png<>uid://d33adapa6ium5::::res://assets 2/New Piskel (7).png<>uid://dpr7mgxmx1w2p::::res://assets 2/New Piskel (6) (1).png<>uid://den23q57egkdw::::res://assets/sprites/New Piskel (1).png<>uid://cwgp6601qh12e::::res://assets/sprites/New Piskel (2).png<>uid://bwjn608i1egn4::::res://assets 2/New Piskel (16).png<>uid://bsi4grbpg1var::::res://assets 2/New Piskel (14).png<>uid://c2its7kohle7::::res://assets 2/carpet.png<>uid://cnnpun7fy4l4i::::res://assets 2/New Piskel (17).png<>uid://d4jg8pth1bv60::::res://scenes/platform.tscn<>uid://cf2h0kf5ps06f::::res://scenes/coin.tscn<>uid://2jjscxknijym::::res://scenes/killzone.tscn<>uid://g7v4ye26q5vj::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://l3axrlixshgb::::res://scenes/sword.tscn<>uid://dcexcihhjad70::::res://assets/fonts/PixelOperator8.ttf
+enemy_kill.gd::GDScript::-1::1770343617::0::1::::<>Area2D<>::
+enemy_kill.tscn::PackedScene::5595990887564101219::1770399072::0::1::::<><>::res://scenes/enemy_kill.gd
 game_manager.gd::GDScript::-1::1770246529::0::1::::<>Node<>::
-killzone.tscn::PackedScene::1914256916287852784::1770266846::0::1::::<><>::res://scripts/killzone.gd
+killzone.tscn::PackedScene::1914256916287852784::1770399072::0::1::::<><>::res://scripts/killzone.gd
 music.tscn::PackedScene::4919958052252394491::1770246403::0::1::::<><>::uid://cd8wu4cieiaxp::::res://assets/music/time_for_adventure.mp3
 New Piskel (24).png::CompressedTexture2D::5498999235883757972::1770266085::1770266085::1::::<><>::
+NextLevel.tscn::PackedScene::6846991999367265355::1770399072::0::1::::<><>::res://scenes/next_level.gd<>uid://bkv6wqrbbt3fy::::res://assets 2/New Piskel (2).png
+next_level.gd::GDScript::-1::1770398854::0::1::::<>Area2D<>::
 platform.tscn::PackedScene::9213741967078634067::1770161332::0::1::::<><>::uid://b70kxjalgydeg::::res://assets 2/New Piskel (8).png
-player.tscn::PackedScene::8834719175674224864::1770266846::0::1::::<><>::res://player.gd<>uid://3yaxh3geas4e::::res://assets 2/New Piskel (24).png<>uid://cxklbedoihk8i::::res://assets 2/New Piskel.png
-spritr.tscn::PackedScene::3205136283310935446::1770161332::0::1::::<><>::uid://8w5ivyi8kdv4::::res://assets 2/New Piskel (4).png<>uid://2jjscxknijym::::res://scenes/killzone.tscn
+player.tscn::PackedScene::8834719175674224864::1770399072::0::1::::<><>::res://player.gd<>uid://3yaxh3geas4e::::res://assets 2/New Piskel (24).png<>uid://cxklbedoihk8i::::res://assets 2/New Piskel.png
 star.gd::GDScript::-1::1770166404::0::1::::<>Area2D<>::
-star.tscn::PackedScene::5411700233799513417::1770266846::0::1::::<><>::uid://bkv6wqrbbt3fy::::res://assets 2/New Piskel (2).png<>res://scenes/star.gd
+star.tscn::PackedScene::5411700233799513417::1770399072::0::1::::<><>::uid://bkv6wqrbbt3fy::::res://assets 2/New Piskel (2).png<>res://scenes/star.gd
 sword.gd::GDScript::-1::1770265210::0::1::::<>Node2D<>::
-sword.tscn::PackedScene::829921840676578473::1770332590::0::1::::<><>::uid://8w5ivyi8kdv4::::res://assets 2/New Piskel (4).png<>res://scenes/sword.gd<>uid://cly0fgdk8ltmx::::res://scenes/enemy_kill.tscn
+sword.tscn::PackedScene::829921840676578473::1770399072::0::1::::<><>::uid://8w5ivyi8kdv4::::res://assets 2/New Piskel (4).png<>res://scenes/sword.gd<>uid://cly0fgdk8ltmx::::res://scenes/enemy_kill.tscn
 ::res://scripts/::1770252661
 coin.gd::GDScript::-1::1770247394::0::1::::<>Area2D<>::
 killzone.gd::GDScript::-1::1770252661::0::1::::<>Area2D<>::

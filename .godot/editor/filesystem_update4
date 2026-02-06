@@ -1,2 +1,16 @@
 res://scenes/game.tscn
 res://scenes/enemy_kill.gd
+res://scenes/sword.tscn
+res://scenes/player.tscn
+res://scenes/star.tscn
+res://scenes/coin.tscn
+res://scenes/killzone.tscn
+res://scenes/enemy_kill.tscn
+res://scenes/level_2.gd
+res://scenes/next_level.gd
+res://scenes/NextLevel.tscn
+res://levels/game.tscn
+res://levels/level1.tscn
+res://levels/level2.tscn
+res://scripts/coin.gd
+res://scenes/sword.gd

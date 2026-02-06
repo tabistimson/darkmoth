@@ -59,3 +59,13 @@ frame_progress = 0.418233
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="EnemyKill"]
 position = Vector2(-29, -8.5)
 shape = SubResource("RectangleShape2D_ijph7")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(-28, -7)
+rotation = -1.58023
+target_position = Vector2(-0.301804, 31.9986)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(-28, -7)
+rotation = 1.56095
+target_position = Vector2(-0.301804, 31.9986)
