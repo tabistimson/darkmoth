@@ -5,6 +5,7 @@ extends Area2D
 func _on_body_entered(body) -> void:
 	if body.has_method("death"):
 		body.death()
+		print("omg")
 	timer.start()
 
 func _on_timer_timeout():
