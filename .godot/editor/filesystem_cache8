@@ -1,0 +1,79 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1770332025
+default_bus_layout.tres::AudioBusLayout::9163210527535203337::1770246589::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1770248091::0::1::::<><>::
+icon.svg::CompressedTexture2D::725851652894834015::1736449379::1736449394::1::::<><>::
+killzone_2.gd::GDScript::-1::1770162702::0::1::::<>Area2D<>::
+killzone_2.tscn::PackedScene::8810005316610768466::1770163131::0::1::::<><>::res://killzone_2.gd
+player.gd::GDScript::-1::1770252661::0::1::::<>CharacterBody2D<>::
+::res://addons/::1770332004
+::res://addons/godot-git-plugin/::1770332004
+git_plugin.gdextension::GDExtension::-1::1770332004::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1770332004::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1770332004
+::res://addons/godot-git-plugin/macos/::1770332004
+::res://addons/godot-git-plugin/windows/::1770332004
+::res://assets/::1739322661
+::res://assets/fonts/::1736449853
+PixelOperator8-Bold.ttf::FontFile::488521262837913115::1736449852::1736449853::1::::<><>::
+PixelOperator8.ttf::FontFile::7309297743123557141::1736449852::1736449853::1::::<><>::
+::res://assets/music/::1770246328
+time_for_adventure.mp3::AudioStreamMP3::5052905380539138973::1736449852::1770246328::1::::<><>::
+::res://assets/sounds/::1736449853
+coin.wav::AudioStreamWAV::5219851627745422114::1736449852::1736449853::1::::<><>::
+explosion.wav::AudioStreamWAV::8753233511878939379::1736449852::1736449853::1::::<><>::
+hurt.wav::AudioStreamWAV::6640469266530796088::1736449852::1736449853::1::::<><>::
+jump.wav::AudioStreamWAV::933704577601310876::1736449852::1736449853::1::::<><>::
+power_up.wav::AudioStreamWAV::7322385030537544934::1736449852::1736449853::1::::<><>::
+tap.wav::AudioStreamWAV::3641057444209062599::1736449852::1736449853::1::::<><>::
+::res://assets/sprites/::1739312912
+coin.png::CompressedTexture2D::6943298386132526871::1736449852::1736449853::1::::<><>::
+fruit.png::CompressedTexture2D::5265043095483189062::1736449852::1736449853::1::::<><>::
+knight.png::CompressedTexture2D::5774957603662390585::1736449852::1736449853::1::::<><>::
+New Piskel (1).png::CompressedTexture2D::7468544585645502612::1739312911::1739312912::1::::<><>::
+New Piskel (2).png::CompressedTexture2D::6330349976496795322::1739312904::1739312905::1::::<><>::
+platforms.png::CompressedTexture2D::8593490975352766603::1736449852::1736449853::1::::<><>::
+slime_green.png::CompressedTexture2D::9002933877860123111::1736449852::1736449853::1::::<><>::
+slime_purple.png::CompressedTexture2D::6019513750942153951::1736449852::1736449853::1::::<><>::
+world_tileset.png::CompressedTexture2D::7238787522959076623::1736449852::1736449853::1::::<><>::
+::res://assets 2/::1770266108
+carpet.png::CompressedTexture2D::196636547989398316::1739478439::1739478439::1::::<><>::
+New Piskel (1).png::CompressedTexture2D::6070884091209193202::1739321444::1739321444::1::::<><>::
+New Piskel (2).png::CompressedTexture2D::3133583433833176762::1739321431::1739321431::1::::<><>::
+New Piskel (4).png::CompressedTexture2D::2363485087252255571::1739321409::1739321415::1::::<><>::
+New Piskel (5).png::CompressedTexture2D::6234471124566566124::1739321404::1739321418::1::::<><>::
+New Piskel (6) (1).png::CompressedTexture2D::8249153852011802237::1739424557::1739424557::1::::<><>::
+New Piskel (6).png::CompressedTexture2D::8920967331715337189::1739419757::1739419757::1::::<><>::
+New Piskel (7).png::CompressedTexture2D::9182357630653428982::1739420540::1739420540::1::::<><>::
+New Piskel (8).png::CompressedTexture2D::4684721840368014874::1739421616::1739421616::1::::<><>::
+New Piskel (9).png::CompressedTexture2D::3459371160257269097::1739421860::1739421861::1::::<><>::
+New Piskel (10).png::CompressedTexture2D::3363666145540337649::1739423276::1739423276::1::::<><>::
+New Piskel (11).png::CompressedTexture2D::6524258042121100256::1739423407::1739423407::1::::<><>::
+New Piskel (12).png::CompressedTexture2D::351110870415175574::1739474496::1739474496::1::::<><>::
+New Piskel (13).png::CompressedTexture2D::2469774310149469833::1739474732::1739474732::1::::<><>::
+New Piskel (14).png::CompressedTexture2D::3668107293896171445::1739475199::1739475199::1::::<><>::
+New Piskel (16).png::CompressedTexture2D::3950000688494059375::1739477012::1739477012::1::::<><>::
+New Piskel (17).png::CompressedTexture2D::5713080448750690966::1739478712::1739478713::1::::<><>::
+New Piskel (23).png::CompressedTexture2D::1635955536023558035::1770165078::1770165078::1::::<><>::
+New Piskel (24).png::CompressedTexture2D::2014874172418108326::1770266108::1770266108::1::::<><>::
+New Piskel.png::CompressedTexture2D::6408498436690768970::1739321439::1739321439::1::::<><>::
+::res://scenes/::1770266846
+coin.tscn::PackedScene::5179993983074334343::1770266846::0::1::::<><>::uid://cu3a3f2qroax5::::res://assets 2/New Piskel (5).png<>res://scripts/coin.gd<>uid://cgmsgt5mma6ok::::res://assets/sounds/coin.wav
+collision_shape_2d.gd::GDScript::-1::1770166484::0::1::::<>Area2D<>::
+enemy_kill.gd::GDScript::-1::1770265783::0::1::::<>Area2D<>::
+enemy_kill.tscn::PackedScene::5595990887564101219::1770266846::0::1::::<><>::res://scenes/enemy_kill.gd
+game.tscn::PackedScene::6108102828636143950::1770266846::0::1::::<><>::uid://dx4usfmqtbwj5::::res://scenes/player.tscn<>res://scenes/game_manager.gd<>uid://dber1jqgfp81p::::res://assets/sprites/world_tileset.png<>uid://d0dna8bppdx4h::::res://assets 2/New Piskel (6).png<>uid://d33adapa6ium5::::res://assets 2/New Piskel (7).png<>uid://dpr7mgxmx1w2p::::res://assets 2/New Piskel (6) (1).png<>uid://den23q57egkdw::::res://assets/sprites/New Piskel (1).png<>uid://cwgp6601qh12e::::res://assets/sprites/New Piskel (2).png<>uid://bwjn608i1egn4::::res://assets 2/New Piskel (16).png<>uid://bsi4grbpg1var::::res://assets 2/New Piskel (14).png<>uid://c2its7kohle7::::res://assets 2/carpet.png<>uid://cnnpun7fy4l4i::::res://assets 2/New Piskel (17).png<>uid://d4jg8pth1bv60::::res://scenes/platform.tscn<>uid://cf2h0kf5ps06f::::res://scenes/coin.tscn<>uid://2jjscxknijym::::res://scenes/killzone.tscn<>uid://g7v4ye26q5vj::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://l3axrlixshgb::::res://scenes/sword.tscn<>uid://dcexcihhjad70::::res://assets/fonts/PixelOperator8.ttf
+game_manager.gd::GDScript::-1::1770246529::0::1::::<>Node<>::
+killzone.tscn::PackedScene::1914256916287852784::1770266846::0::1::::<><>::res://scripts/killzone.gd
+music.tscn::PackedScene::4919958052252394491::1770246403::0::1::::<><>::uid://cd8wu4cieiaxp::::res://assets/music/time_for_adventure.mp3
+New Piskel (24).png::CompressedTexture2D::5498999235883757972::1770266085::1770266085::1::::<><>::
+platform.tscn::PackedScene::9213741967078634067::1770161332::0::1::::<><>::uid://b70kxjalgydeg::::res://assets 2/New Piskel (8).png
+player.tscn::PackedScene::8834719175674224864::1770266846::0::1::::<><>::res://player.gd<>uid://3yaxh3geas4e::::res://assets 2/New Piskel (24).png<>uid://cxklbedoihk8i::::res://assets 2/New Piskel.png
+spritr.tscn::PackedScene::3205136283310935446::1770161332::0::1::::<><>::uid://8w5ivyi8kdv4::::res://assets 2/New Piskel (4).png<>uid://2jjscxknijym::::res://scenes/killzone.tscn
+star.gd::GDScript::-1::1770166404::0::1::::<>Area2D<>::
+star.tscn::PackedScene::5411700233799513417::1770266846::0::1::::<><>::uid://bkv6wqrbbt3fy::::res://assets 2/New Piskel (2).png<>res://scenes/star.gd
+sword.gd::GDScript::-1::1770265210::0::1::::<>Node2D<>::
+sword.tscn::PackedScene::829921840676578473::1770266846::0::1::::<><>::uid://8w5ivyi8kdv4::::res://assets 2/New Piskel (4).png<>res://scenes/sword.gd<>uid://cly0fgdk8ltmx::::res://scenes/enemy_kill.tscn
+::res://scripts/::1770252661
+coin.gd::GDScript::-1::1770247394::0::1::::<>Area2D<>::
+killzone.gd::GDScript::-1::1770252661::0::1::::<>Area2D<>::

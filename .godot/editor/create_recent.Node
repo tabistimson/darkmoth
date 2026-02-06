@@ -1,0 +1,14 @@
+Timer
+CollisionShape2D
+Area2D
+AnimationPlayer
+AudioStreamPlayer2D
+Label
+AnimatedSprite2D
+Node2D
+Node
+AnimatableBody2D
+AnimatableBody3D
+AnimationTree
+TileMapLayer
+Sprite2D
